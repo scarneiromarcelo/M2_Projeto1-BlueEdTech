@@ -16,6 +16,10 @@ const mudaimage = () => {
   } else if (cont == 2) {
     imagem.setAttribute("src", "./assets/img/shehulk.png");
     document.getElementById("txt").innerText = "She Hulk !";
-    cont -= 2;
+    cont += 1;
+  } else if (cont == 3) {
+    imagem.setAttribute("src", "./assets/img/hulk2.png");
+    document.getElementById("txt").innerText = "Vamos Hulk me ajuda!";
+    cont -= 3;
   }
 };
