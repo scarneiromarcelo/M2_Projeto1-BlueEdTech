@@ -1,63 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-main{
-    margin-left: 10rem;
-    margin-right: 10rem;
+body {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 50rem;
+  border: none; /*ref*/
+  align-items: center;
 }
 
 nav {
-    background-color:aliceblue;
-    padding: .8rem;
-    position: fixed;
-    width: 100%;
-    
+  background-color: aliceblue;
+  padding: 0.8rem;
+  position: fixed;
+  width: 100%;
 }
 
-nav h1{
-    text-align: center;
+nav h1 {
+  text-align: center;
 }
 
-body{
-    background-color:aquamarine;
+header img {
+  align-items: flex-start;
+  width: 100%;
 }
 
-header img{
-    display: flex;
-    width: 100%;
-        
+header h2 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-header h2{
-    text-align: center;
-    font-size: 10rem;
-    margin-top: 3rem;
+#btn {
+  align-items: center;
+  border: none; /*teste*/
+  display: flex;
+  margin: 0 auto;
+  border-radius: 2rem;
+}
+section div button {
+  width: 10rem;
+  height: 3rem;
+  font-size: 30px;
+  cursor: pointer;
 }
 
-section#hulk{
-    display: flex;
-    
-    
+section#hulk {
+  justify-content: start;
+  margin: 0 auto;
 }
 
-footer{
-    text-align: center;
-    padding-top: 1rem;    
-    background-color: aliceblue;
-    padding-bottom: 1rem;
-    
+section figure img {
+  max-width: 75rem;
+  max-height: 25rem;
+  width: auto;
+  height: auto;
+  border: none;
+  object-fit: contain;
 }
 
-footer a{
-    text-decoration: none;
-    color: black;    
+footer {
+  text-align: center;
+  padding-top: 1rem;
+  background-color: aliceblue;
+  padding-bottom: 1rem;
 }
 
-footer a:hover{
-    color: blue;
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: blue;
 }
